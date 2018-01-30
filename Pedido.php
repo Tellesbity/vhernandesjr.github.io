@@ -50,7 +50,7 @@
         <!--Banner Start-->
         <div class="banner m-bot-100">
             <div class="banner-text">
-                <h1>Se você quiser descobrir os segredos do Universo, pense em termos de energia, frequência e vibração. - Nikola Tesla</h1>
+                <h1></h1>
             </div>
             <div class="arrow-up"></div>
         </div>
@@ -59,18 +59,22 @@
             <!--Featured Section start-->
             <div class="container-fluid m-bot-100 featured-section">
                 <div class="row">
-                    <div class="featured">
-                        <div class="col-md-3 featured-img">
-                            <a href="#"><img src="img/como.png" alt="Como Funciona"></a>
-                        </div>
-                        <div class="col-md-3 featured-img">
-                            <a href="Pedido.html"><img src="img/atomo.png" alt="Pedidos de Ondas Escalares"></a>
-                        </div>
-                        <div class="col-md-3 featured-img">
-                            <a href="#"><img src="img/livro.png" alt="Sobre"><right></right></a>
-                        </div>
-                    </div>
-                </div>
+					<form method="post" action="Pedido.html">
+						<input type="hidden"name="redirect" value="index.html">
+						<input name="recipient" value="astrearessonancia@gmail.com" type="hidden">
+						<input name="required" value="recipient,email,realname,subject,message" type="hidden">
+						<input type="hidden" name="sort" value="order:recipient,email,realname,subject,message">
+						<input type="hidden" name="subject" value="Título do Formulário"> 
+						<div align="center">
+							Nome Completo:   <input name="realname" size=40><br> 
+							<br>Email:    <input name="email" size=50><br> 
+							<br>Patologia:   <textarea name=subject rows=8 cols=48> </textarea><br> 
+							<br>Pedido:   <textarea name=message rows=8 cols=50> </textarea> <br>
+							<br><input type="submit" value="Envie sua mensagem" name="submit" >
+							<input type="reset" value="Limpar" name="reset">
+						</div>
+					</form>
+				</div>
             </div>
            
         </main>    
@@ -90,3 +94,11 @@
         <script src="js/main.js"></script>
     </body>
 </html>
+
+redirect - Preencha com a URL que deve ser apresentada após o envio do formulário. 
+
+order - Define a sequência/ordem em que os campos devem ser recebidos no e-mail. 
+
+required - É a lista dos campos que DEVEM ser preenchidos para que seja permitido o envio do formulário. Use os mesmos valores das instâncias name=**do seu formulário. 
+
+subject - Você pode determinar o que irá no título do e-mail que será enviado pelo formulário. 
