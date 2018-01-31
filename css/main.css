@@ -20,7 +20,7 @@ a:hover {
 }
 /* Header */
 li.active, nav li:hover {
-  border-bottom: 1px solid #050c38;
+  border-bottom: 1px solid #0055c9;
   transition: 0s; 
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -169,7 +169,7 @@ footer#footer {
   li.active, nav li:hover {
     border-bottom: 1px solid #fff;
     transition: 0s !important;
-    background: #050c38;
+    background: #0055c9;
     border-radius: 4px;
     color: #fff; }
   ul.nav a:hover, .nav .active a {
