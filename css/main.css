@@ -158,6 +158,10 @@ footer#footer {
   footer#footer p {
     color: #fff; 
 }
+.texts{
+  text-align: justify;
+  font-size: 1.3em;
+}
 /* RESPONSIVE CSS */
 @media (min-width: 991px) {
   .featured-list {
