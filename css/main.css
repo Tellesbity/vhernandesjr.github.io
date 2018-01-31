@@ -60,6 +60,16 @@ ul.nav li {
     left: 50%;
     transform: translate(-50%, -50%); 
 }
+@media (max-width: 400px) {
+  h1 {
+    font-size: 24px; 
+  } 
+}
+@media (max-width: 450px) {
+  h1 {
+    font-size: 24px; 
+  } 
+}
 .navbar-default {
   background: #fff;
   margin-bottom: 0;
