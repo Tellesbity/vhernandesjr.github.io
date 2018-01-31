@@ -158,6 +158,11 @@ footer#footer {
   footer#footer p {
     color: #fff; 
 }
+@media (max-width: 1050px) {
+  footer#footer {
+    margin-top: 27%; 
+  } 
+}
 /* RESPONSIVE CSS */
 @media (min-width: 991px) {
   .featured-list {
